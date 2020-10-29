@@ -1,35 +1,49 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
+using Random = UnityEngine.Random;
 
 public class DiceRoller : MonoBehaviour
 {
+
     public DiceIntSO diceInfo;
-    private int rollResult,
+
+    public int[] rollInt;
+    
+    private int rollIntSum,
         modifier,
         totalResult;
 
     private string resultMessage;
-    void Start()
+
+    
+    private void Start()
     {
-        
+        rollInt = new int[diceInfo.diceInt];
     }
 
     void Update()
     {
         if (Input.GetButtonDown("Jump"))
         {
-            rollResult = Random.Range(1, diceInfo.sideInt+1);
+            for (int i = 0; i < rollInt.Length; i++)
+            {
+                rollInt[i] = Random.Range(1, diceInfo.sideInt+1);
+                //Debug.Log(rollInt[i]);
+               // Debug.Log("Roll Number:" + (i+1));
+            }
+
+            rollIntSum = rollInt.Sum();
             modifier = diceInfo.modifierInt;
-            totalResult = rollResult + modifier;
-            resultMessage = rollResult.ToString() + " + " + modifier.ToString() + " = " + totalResult.ToString();
-            Debug.Log(resultMessage);
+           totalResult = rollIntSum + modifier;
+           resultMessage = rollIntSum.ToString() + " (" + diceInfo.diceInt.ToString() + "d" + diceInfo.sideInt.ToString()
+                           + ")" + " + " + modifier.ToString() + " = " + totalResult.ToString();
+           Debug.Log(resultMessage);
         }  
     }
-
-    public void Roll()
-    {
-       
-    }
+    
         
 }

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31c9143eae6399544b5dd2dcaf8b7627, type: 3}
   m_Name: Dice
   m_EditorClassIdentifier: 
-  diceInt: 1
-  sideInt: 20
-  modifierInt: 0
+  diceInt: 4
+  sideInt: 6
+  modifierInt: 5
