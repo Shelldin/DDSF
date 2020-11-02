@@ -18,6 +18,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/DiceIntSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceRoller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntValueAssigner.cs" />
       </list>
     </option>
   </component>
@@ -62,7 +63,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603780060995</updated>
       <workItem from="1603780092890" duration="4698000" />
-      <workItem from="1603934390655" duration="5823000" />
+      <workItem from="1603934390655" duration="6475000" />
+      <workItem from="1604036400956" duration="725000" />
+      <workItem from="1604293337003" duration="3018000" />
     </task>
     <servers />
   </component>

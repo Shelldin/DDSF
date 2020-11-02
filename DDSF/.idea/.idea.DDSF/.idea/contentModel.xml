@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="DiceRoller.cs" t="Include" />
+          <e p="IntValueAssigner.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="DiceIntSO.cs" t="Include" />
           </e>
