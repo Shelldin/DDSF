@@ -22,13 +22,16 @@ public class DiceRoller : MonoBehaviour
     
     private void Start()
     {
-        rollInt = new int[diceInfo.diceInt];
+        
     }
 
     void Update()
     {
+        
         if (Input.GetButtonDown("Jump"))
         {
+            rollInt = new int[diceInfo.diceInt];
+            
             for (int i = 0; i < rollInt.Length; i++)
             {
                 rollInt[i] = Random.Range(1, diceInfo.sideInt+1);

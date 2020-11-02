@@ -17,8 +17,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/DiceIntSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DiceRoller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntValueAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DiceRoller.cs" />
       </list>
     </option>
   </component>
@@ -65,7 +65,7 @@
       <workItem from="1603780092890" duration="4698000" />
       <workItem from="1603934390655" duration="6475000" />
       <workItem from="1604036400956" duration="725000" />
-      <workItem from="1604293337003" duration="3018000" />
+      <workItem from="1604293337003" duration="4201000" />
     </task>
     <servers />
   </component>

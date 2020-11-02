@@ -15,12 +15,24 @@ public class IntValueAssigner : MonoBehaviour
 
    private void Awake()
    {
+      //from unity text adventure tutorial
       inputField.onEndEdit.AddListener(ReceiveStringValueInput);
    }
 
    private void ReceiveStringValueInput(string playerInput)
    {
       int.TryParse(playerInput, out diceIntRange);
+      if (diceIntRange > 100)
+      {
+         diceIntRange = 100;
+      }
+
+      if (diceIntRange < 1)
+      {
+         diceIntRange = 1;
+      }
+
+      diceInfo.diceInt = diceIntRange;
       Debug.Log(diceIntRange);
    }
 }
