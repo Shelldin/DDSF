@@ -21,8 +21,9 @@ public class DiceRoller : MonoBehaviour
         totalResult;
 
     private string resultMessage;
-
     
+    public List<string> resultMessageLog = new List<string>();
+
     private void Start()
     {
         
@@ -47,10 +48,16 @@ public class DiceRoller : MonoBehaviour
            totalResult = rollIntSum + modifier;
            resultMessage = rollIntSum.ToString() + " (" + diceInfo.diceInt.ToString() + "d" + diceInfo.sideInt.ToString()
                            + ")" + " + " + modifier.ToString() + " = " + totalResult.ToString();
-           resultText.text = resultMessage;
+           LogRollResults();
+           string displayTextString = string.Join("\n", resultMessageLog.ToArray());
+           resultText.text = displayTextString;
            Debug.Log(resultMessage);
-        }  
+        }
     }
-    
+
+    private void LogRollResults()
+    {
+        resultMessageLog.Add(resultMessage + "\n");
+    }
         
 }
