@@ -11,7 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiceRoller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -19,6 +19,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/DiceIntSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceRoller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SideIntValueAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DiceIntValueAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" />
       </list>
     </option>
   </component>
@@ -65,7 +68,8 @@
       <workItem from="1603780092890" duration="4698000" />
       <workItem from="1603934390655" duration="6475000" />
       <workItem from="1604036400956" duration="725000" />
-      <workItem from="1604293337003" duration="4201000" />
+      <workItem from="1604293337003" duration="5076000" />
+      <workItem from="1604890159897" duration="1319000" />
     </task>
     <servers />
   </component>
