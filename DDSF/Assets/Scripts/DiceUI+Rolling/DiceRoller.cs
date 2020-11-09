@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class DiceRoller : MonoBehaviour
@@ -12,6 +13,8 @@ public class DiceRoller : MonoBehaviour
     public DiceIntSO diceInfo;
 
     public int[] rollInt;
+
+    public Text resultText;
     
     private int rollIntSum,
         modifier,
@@ -44,6 +47,7 @@ public class DiceRoller : MonoBehaviour
            totalResult = rollIntSum + modifier;
            resultMessage = rollIntSum.ToString() + " (" + diceInfo.diceInt.ToString() + "d" + diceInfo.sideInt.ToString()
                            + ")" + " + " + modifier.ToString() + " = " + totalResult.ToString();
+           resultText.text = resultMessage;
            Debug.Log(resultMessage);
         }  
     }
