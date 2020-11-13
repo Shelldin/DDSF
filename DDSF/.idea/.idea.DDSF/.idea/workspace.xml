@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceIntValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/DiceRoller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/TabActivate.cs" />
       </list>
     </option>
   </component>
@@ -71,6 +72,7 @@
       <workItem from="1604036400956" duration="725000" />
       <workItem from="1604293337003" duration="5076000" />
       <workItem from="1604890159897" duration="7788000" />
+      <workItem from="1605237535045" duration="6210000" />
     </task>
     <servers />
   </component>

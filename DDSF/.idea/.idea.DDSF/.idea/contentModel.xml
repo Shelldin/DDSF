@@ -12,6 +12,7 @@
             <e p="DiceRoller.cs" t="Include" />
             <e p="ModifierIntValueAssigner.cs" t="Include" />
             <e p="SideIntValueAssigner.cs" t="Include" />
+            <e p="TabActivate.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
             <e p="DiceIntSO.cs" t="Include" />
