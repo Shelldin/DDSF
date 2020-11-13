@@ -30,6 +30,5 @@ public class SideIntValueAssigner : MonoBehaviour
         }
 
         diceInfo.sideInt = sideIntRange;
-        Debug.Log(sideIntRange);
-        }
+    }
 }

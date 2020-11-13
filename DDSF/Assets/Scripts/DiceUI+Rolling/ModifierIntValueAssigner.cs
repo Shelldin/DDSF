@@ -30,6 +30,5 @@ public class ModifierIntValueAssigner : MonoBehaviour
         }
 
         diceInfo.modifierInt = modifierIntRange;
-        Debug.Log(modifierIntRange);
     }
 }

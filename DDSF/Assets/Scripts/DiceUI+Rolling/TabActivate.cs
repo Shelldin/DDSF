@@ -9,18 +9,21 @@ public class TabActivate : MonoBehaviour
     public InputField [] inputFields;
 
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (Input.GetKeyDown("tab") && inputFields[1].IsActive())
-        {
-            inputFields[2].ActivateInputField();
-        }
-        
-        if (Input.GetKeyDown("tab") && inputFields[0].IsActive())
+        if (Input.GetKeyUp("tab") && inputFields[0].isFocused)
         {
             inputFields[1].ActivateInputField();
         }
         
+        if (Input.GetKeyUp("tab") && inputFields[1].isFocused)
+        {
+            inputFields[2].ActivateInputField();
+        }
         
+        if (Input.GetKeyUp("tab") && inputFields[2].isFocused)
+        {
+            inputFields[0].ActivateInputField();
+        }
     }
 }

@@ -30,6 +30,5 @@ public class DiceIntValueAssigner : MonoBehaviour
       }
 
       diceInfo.diceInt = diceIntRange;
-      Debug.Log(diceIntRange);
    }
 }

@@ -39,8 +39,7 @@ public class DiceRoller : MonoBehaviour
             for (int i = 0; i < rollInt.Length; i++)
             {
                 rollInt[i] = Random.Range(1, diceInfo.sideInt+1);
-                //Debug.Log(rollInt[i]);
-               // Debug.Log("Roll Number:" + (i+1));
+               
             }
 
             rollIntSum = rollInt.Sum();
@@ -51,7 +50,6 @@ public class DiceRoller : MonoBehaviour
            LogRollResults();
            string displayTextString = string.Join("\n", resultMessageLog.ToArray());
            resultText.text = displayTextString;
-           Debug.Log(resultMessage);
         }
     }
 
