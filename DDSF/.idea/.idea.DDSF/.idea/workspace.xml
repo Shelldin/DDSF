@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -26,6 +27,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/SideIntValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/TabActivate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" />
       </list>
     </option>
   </component>
@@ -76,6 +79,7 @@
       <workItem from="1604890159897" duration="7788000" />
       <workItem from="1605237535045" duration="9412000" />
       <workItem from="1605254856937" duration="257000" />
+      <workItem from="1607248517344" duration="6667000" />
     </task>
     <servers />
   </component>
