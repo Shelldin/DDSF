@@ -54,5 +54,65 @@ public class CharacterSheetMenu : MonoBehaviour
         {
             artificerMenuEvent.Invoke();
         }
+        
+        if (characterClassIndex == 2)
+        {
+            barbarianMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 3)
+        {
+            bardMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 4)
+        {
+            clericMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 5)
+        {
+            druidMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 6)
+        {
+            fighterMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 7)
+        {
+            monkMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 8)
+        {
+            paladinMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 9)
+        {
+            rangerMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 10)
+        {
+            rogueMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 11)
+        {
+            sorcererMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 12)
+        {
+            warlockMenuEvent.Invoke();
+        }
+        
+        if (characterClassIndex == 13)
+        {
+            wizardMenuEventEvent.Invoke();
+        }
     }
 }
