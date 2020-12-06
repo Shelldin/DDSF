@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Martial Archetype...
+    - m_Text: Select Archetype...
       m_Image: {fileID: 0}
     - m_Text: Arcane Archer
       m_Image: {fileID: 0}
@@ -643,7 +643,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Sorcerous Origin...
+    - m_Text: Select Origin...
       m_Image: {fileID: 0}
     - m_Text: Aberrant Mind
       m_Image: {fileID: 0}
@@ -6131,7 +6131,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Monastic Tradition...
+    - m_Text: Select Tradition...
       m_Image: {fileID: 0}
     - m_Text: Astral Self
       m_Image: {fileID: 0}
@@ -7015,7 +7015,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Druidic Circle...
+    - m_Text: Select Circle...
       m_Image: {fileID: 0}
     - m_Text: Dreams
       m_Image: {fileID: 0}
@@ -9990,7 +9990,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Ranger Archetype...
+    - m_Text: Select Archetype...
       m_Image: {fileID: 0}
     - m_Text: Beast Master
       m_Image: {fileID: 0}
@@ -11835,7 +11835,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Bardic College...
+    - m_Text: Select College...
       m_Image: {fileID: 0}
     - m_Text: Creation
       m_Image: {fileID: 0}
@@ -16389,7 +16389,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Arcane Tradition...
+    - m_Text: Selec Tradition...
       m_Image: {fileID: 0}
     - m_Text: Abjuration
       m_Image: {fileID: 0}
@@ -16635,7 +16635,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Otherworldy Patron...
+    - m_Text: Select Patron...
       m_Image: {fileID: 0}
     - m_Text: Archfey
       m_Image: {fileID: 0}
@@ -17764,7 +17764,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Roguish Archetype...
+    - m_Text: Select Archetype...
       m_Image: {fileID: 0}
     - m_Text: Arcane Trickster
       m_Image: {fileID: 0}
