@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -28,9 +29,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/SideIntValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/TabActivate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
       </list>
     </option>
   </component>
@@ -82,7 +84,7 @@
       <workItem from="1605237535045" duration="9412000" />
       <workItem from="1605254856937" duration="257000" />
       <workItem from="1607248517344" duration="8036000" />
-      <workItem from="1607388047013" duration="3465000" />
+      <workItem from="1607388047013" duration="13986000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,9 @@ public class CharacterSheetSO : ScriptableObject
 {
     public string characterName;
 
-    public int level,
+    public int classMenuDropdownValue,
+        subClassMenuDropdownValue,
+        level,
         experience,
         proficiencyBonus,
         str,
@@ -28,8 +30,5 @@ public class CharacterSheetSO : ScriptableObject
         flySpeed,
         flySpeedSpace;
     
-    public Dropdown characterClass,
-        characterSubClass,
-        characterRace,
-        characterSubRace;
+    
 }

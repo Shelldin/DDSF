@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d466f1b60c8485f45bd8d4097be63f5e, type: 3}
   m_Name: TestSheet
   m_EditorClassIdentifier: 
-  characterName: 
-  level: 0
+  characterName: sheldon
+  classMenuDropdownValue: 2
+  subClassMenuDropdownValue: 2
+  level: 2
   experience: 0
   proficiencyBonus: 0
   str: 0
@@ -32,7 +34,3 @@ MonoBehaviour:
   swimSpeedSpace: 0
   flySpeed: 0
   flySpeedSpace: 0
-  characterClass: {fileID: 0}
-  characterSubClass: {fileID: 0}
-  characterRace: {fileID: 0}
-  characterSubRace: {fileID: 0}
