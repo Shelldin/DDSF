@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
-
+[CreateAssetMenu]
 public class CharacterSheetSO : ScriptableObject
 {
     public string characterName;

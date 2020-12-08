@@ -23,6 +23,7 @@ public class CharacterSheetMenu : MonoBehaviour
      * 12 = Warlock
      * 13 = Wizard
      */
+    
     public UnityEvent ClassMenuEvent,
         artificerMenuEvent,
         barbarianMenuEvent,
@@ -38,9 +39,18 @@ public class CharacterSheetMenu : MonoBehaviour
         warlockMenuEvent,
         wizardMenuEventEvent;
 
+    public CharacterSheetSO charSheet;
+    public Text characterNameField;
 
-    private void Start()
+
+    private void Awake()
     {
+        
+    }
+
+    private void Update()
+    {
+       
     }
 
     public void SelectCharacterClass(int characterClassIndex)
