@@ -4,66 +4,48 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LoadCharacterSheetData : MonoBehaviour
+public class DropdownValueAssigner : MonoBehaviour
 {
-    /* CharacterClassIndex Key:
-     * 0 = Select Class...
-     * 1 = Artificer
-     * 2 = Barbarian
-     * 3 = Bard
-     * 4 = Cleric
-     * 5 = Druid
-     * 6 = Fighter
-     * 7 = Monk
-     * 8 = Paladin
-     * 9 = Ranger
-     * 10 = Rogue
-     * 11 = Sorcerer
-     * 12 = Warlock
-     * 13 = Wizard
-     */
-    
-    public CharacterSheetSO charSheet;
-    public InputField charNameInputField;
     public List<Dropdown> dropdownMainMenus = new List<Dropdown>();
-    public List<GameObject> subMenus = new List<GameObject>();
+    public List<GameObject> subMenuGameObjects = new List<GameObject>();
     public List<Dropdown> dropdownSubClassMenus = new List<Dropdown>();
-
-    //private int[] subAtThree = {1, 2, 3, 6, 7, 8, 9, 10};
+    public CharacterSheetSO charSheet;
 
     private void Awake()
     {
-        LoadCharacterName();
-        SetSubMenuGameObjectsInactive();
-        LoadClassDropdownValue();
-        SetSubMenuGameObjectsActive();
-        SetSubMenuIsInteractable();
-        LoadSubClassDropdownValue();
-    }
-
-    private void LoadCharacterName()
-    {
-        charNameInputField.text = charSheet.characterName;
-    }
-
-    private void SetSubMenuGameObjectsInactive()
-    {
-        for (int i = 0; i < subMenus.Count; i++)
+        dropdownMainMenus[0].onValueChanged.AddListener(AssignClassMenuDropdownValue);
+        for (int i = 0; i < dropdownSubClassMenus.Count; i++)
         {
-            subMenus[i].SetActive(false);
+            dropdownSubClassMenus[i].onValueChanged.AddListener(AssignSubClassMenuDropdownValue);
         }
     }
 
-    private void LoadClassDropdownValue()
+    private void AssignClassMenuDropdownValue(int classChoiceValue)
     {
-        dropdownMainMenus[0].value = charSheet.classMenuDropdownValue;
+        charSheet.classMenuDropdownValue = classChoiceValue;
+        SetSubMenuGameObjectsInactive();
+        SetSubMenuGameObjectsActive();
+        SetSubMenuIsInteractable();
     }
 
+    private void AssignSubClassMenuDropdownValue(int subClassChoiceValue)
+    {
+        charSheet.subClassMenuDropdownValue = subClassChoiceValue;
+    }
+    
+    private void SetSubMenuGameObjectsInactive()
+    {
+        for (int i = 0; i < subMenuGameObjects.Count; i++)
+        {
+            subMenuGameObjects[i].SetActive(false);
+        }
+    }
+    
     private void SetSubMenuGameObjectsActive()
     {
-        subMenus[dropdownMainMenus[0].value].SetActive(true);
+        subMenuGameObjects[dropdownMainMenus[0].value].SetActive(true);
     }
-
+    
     private void SetSubMenuIsInteractable()
     {
         if ((dropdownMainMenus[0].value == 1 && charSheet.level<3) || (dropdownMainMenus[0].value == 2 && charSheet.level<3) || 
@@ -79,9 +61,6 @@ public class LoadCharacterSheetData : MonoBehaviour
             dropdownSubClassMenus[dropdownMainMenus[0].value].interactable = true;
         }
     }
-
-    private void LoadSubClassDropdownValue()
-    {
-        dropdownSubClassMenus[dropdownMainMenus[0].value].value = charSheet.subClassMenuDropdownValue;
-    }
+    
+    
 }

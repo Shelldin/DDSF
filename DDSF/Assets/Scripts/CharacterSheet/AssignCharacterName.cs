@@ -12,7 +12,6 @@ public class AssignCharacterName : MonoBehaviour
     private void Awake()
     {
         characterNameField.onEndEdit.AddListener(ReceiveStringInput);
-        //characterNameField.text = charSheet.characterName;
     }
 
     private void ReceiveStringInput(string playerInput)

@@ -4098,7 +4098,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542898170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f94f02b5e22748e46a3d7dc1ebfff185, type: 3}
   m_Name: 
@@ -15510,6 +15510,7 @@ GameObject:
   - component: {fileID: 1832343032}
   - component: {fileID: 1832343031}
   - component: {fileID: 1832343033}
+  - component: {fileID: 1832343034}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -15591,6 +15592,51 @@ MonoBehaviour:
   - {fileID: 57723371}
   - {fileID: 1999018985}
   - {fileID: 1964757782}
+--- !u!114 &1832343034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832343030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd7f17ef5b4baa4fbe6c15a3359ab05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropdownMainMenus:
+  - {fileID: 1639504021}
+  subMenuGameObjects:
+  - {fileID: 1107009661}
+  - {fileID: 10976555}
+  - {fileID: 1807141900}
+  - {fileID: 1365099508}
+  - {fileID: 109748820}
+  - {fileID: 809858042}
+  - {fileID: 3286133}
+  - {fileID: 753394582}
+  - {fileID: 2112715536}
+  - {fileID: 1114476642}
+  - {fileID: 2076759706}
+  - {fileID: 57723369}
+  - {fileID: 1999018983}
+  - {fileID: 1964757780}
+  dropdownSubClassMenus:
+  - {fileID: 1107009663}
+  - {fileID: 10976557}
+  - {fileID: 1807141902}
+  - {fileID: 1365099510}
+  - {fileID: 109748822}
+  - {fileID: 809858044}
+  - {fileID: 3286135}
+  - {fileID: 753394584}
+  - {fileID: 2112715538}
+  - {fileID: 1114476644}
+  - {fileID: 2076759708}
+  - {fileID: 57723371}
+  - {fileID: 1999018985}
+  - {fileID: 1964757782}
+  charSheet: {fileID: 11400000, guid: 1d5c9fa2ec51ba64aa221ffd39bfb897, type: 2}
 --- !u!1 &1839556645
 GameObject:
   m_ObjectHideFlags: 0
@@ -18311,7 +18357,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Select Sacred Oath...
+    - m_Text: Select Oath...
       m_Image: {fileID: 0}
     - m_Text: Ancients
       m_Image: {fileID: 0}
