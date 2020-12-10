@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,6 +36,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" />
       </list>
     </option>
   </component>
@@ -88,6 +90,7 @@
       <workItem from="1607248517344" duration="8036000" />
       <workItem from="1607388047013" duration="13986000" />
       <workItem from="1607474684112" duration="7869000" />
+      <workItem from="1607560502163" duration="7416000" />
     </task>
     <servers />
   </component>

@@ -11,6 +11,7 @@
             <e p="AssignCharacterName.cs" t="Include" />
             <e p="CharacterSheetMenu.cs" t="Include" />
             <e p="DropdownValueAssigner.cs" t="Include" />
+            <e p="ExpAndLevelAssinger.cs" t="Include" />
             <e p="LoadCharacterSheetData.cs" t="Include" />
           </e>
           <e p="DiceUI+Rolling" t="Include">

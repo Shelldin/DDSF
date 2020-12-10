@@ -28,12 +28,16 @@ public class LoadCharacterSheetData : MonoBehaviour
     public List<Dropdown> dropdownMainMenus = new List<Dropdown>();
     public List<GameObject> subMenus = new List<GameObject>();
     public List<Dropdown> dropdownSubClassMenus = new List<Dropdown>();
+    public List<Text> textField = new List<Text>();
+    public InputField expInputField;
 
     //private int[] subAtThree = {1, 2, 3, 6, 7, 8, 9, 10};
 
     private void Awake()
     {
         LoadCharacterName();
+        LoadCharacterLevelAndExp();
+        
         SetSubMenuGameObjectsInactive();
         LoadClassDropdownValue();
         SetSubMenuGameObjectsActive();
@@ -44,6 +48,12 @@ public class LoadCharacterSheetData : MonoBehaviour
     private void LoadCharacterName()
     {
         charNameInputField.text = charSheet.characterName;
+    }
+
+    private void LoadCharacterLevelAndExp()
+    {
+        textField[0].text = charSheet.level.ToString();
+        expInputField.text = charSheet.experience.ToString();
     }
 
     private void SetSubMenuGameObjectsInactive()
@@ -84,4 +94,6 @@ public class LoadCharacterSheetData : MonoBehaviour
     {
         dropdownSubClassMenus[dropdownMainMenus[0].value].value = charSheet.subClassMenuDropdownValue;
     }
+    
+    
 }
