@@ -8,6 +8,7 @@ public class ExpAndLevelAssinger : MonoBehaviour
 {
     public CharacterSheetSO charSheet;
     public Text levelText;
+    public Text expText;
     public InputField expInputField;
 
     private void Awake()
@@ -17,18 +18,18 @@ public class ExpAndLevelAssinger : MonoBehaviour
 
     private void AssignExpValue(string playerInput)
     {
-        charSheet.experience = int.Parse(playerInput);
+        charSheet.experience = charSheet.experience + int.Parse(playerInput);
         if (charSheet.experience < 0)
         {
             charSheet.experience = 0;
-            expInputField.text = charSheet.experience.ToString();
         }
 
         if (charSheet.experience > 355000)
         {
             charSheet.experience = 355000;
-            expInputField.text = charSheet.experience.ToString();
         }
+        expText.text = charSheet.experience.ToString();
+        expInputField.text = null;
         AssignLevelValue();
     }
 

@@ -29,7 +29,6 @@ public class LoadCharacterSheetData : MonoBehaviour
     public List<GameObject> subMenus = new List<GameObject>();
     public List<Dropdown> dropdownSubClassMenus = new List<Dropdown>();
     public List<Text> textField = new List<Text>();
-    public InputField expInputField;
 
     //private int[] subAtThree = {1, 2, 3, 6, 7, 8, 9, 10};
 
@@ -53,7 +52,7 @@ public class LoadCharacterSheetData : MonoBehaviour
     private void LoadCharacterLevelAndExp()
     {
         textField[0].text = charSheet.level.ToString();
-        expInputField.text = charSheet.experience.ToString();
+        textField[1].text = charSheet.experience.ToString();
     }
 
     private void SetSubMenuGameObjectsInactive()
