@@ -6,42 +6,70 @@ using UnityEngine.UI;
 
 public class LoadCharacterSheetData : MonoBehaviour
 {
-    /* CharacterClassIndex Key:
-     * 0 = Select Class...
-     * 1 = Artificer
-     * 2 = Barbarian
-     * 3 = Bard
-     * 4 = Cleric
-     * 5 = Druid
-     * 6 = Fighter
-     * 7 = Monk
-     * 8 = Paladin
-     * 9 = Ranger
-     * 10 = Rogue
-     * 11 = Sorcerer
-     * 12 = Warlock
-     * 13 = Wizard
+    /* CharacterClassIndex Key:   RaceIndex Key:
+     * 0 = Select Class...        0 = Select Race
+     * 1 = Artificer              1 = Aarakocra
+     *                            2 = Aasimar
+     * 2 = Barbarian              3 = Bugbear
+     * 3 = Bard                   4 = Changeling
+     * 4 = Cleric                 5 = Dragonborn
+     * 5 = Druid                  6 = Dwarf
+     * 6 = Fighter                7 = Elf
+     * 7 = Monk                   8 = Firbolg
+     * 8 = Paladin                9 = Genasi
+     * 9 = Ranger                 10 = Gith
+     * 10 = Rogue                 11 = Gnome
+     * 11 = Sorcerer              12 = Goblin
+     * 12 = Warlock               13 = Goliath
+     * 13 = Wizard                14 = Half-Elf
+     *                            15 = Half-Orc
+     *                            16 = Halfling
+     *                            17 = Hobgoblin
+     *                            18 = Human
+     *                            19 = Kalashtar
+     *                            20 = Kenku
+     *                            21 = Kobold
+     *                            22 = Lizardfolk
+     *                            23 = Orc
+     *                            24 = Shifter
+     *                            25 = Tabaxi
+     *                            26 = Tiefling
+     *                            27 = Tortle
+     *                            28 = Triton
+     *                            29 = Warforged
+     *                            30 = Yaun-ti Pureblood
      */
     
     public CharacterSheetSO charSheet;
     public InputField charNameInputField;
+    
     public List<Dropdown> dropdownMainMenus = new List<Dropdown>();
+    
     public List<GameObject> subMenus = new List<GameObject>();
     public List<Dropdown> dropdownSubClassMenus = new List<Dropdown>();
+    
+    public List<GameObject> subRaceMenuGameObjects = new List<GameObject>();
+    public List<Dropdown> dropdownSubRaceMenus = new List<Dropdown>();
+    
     public List<Text> textField = new List<Text>();
 
     //private int[] subAtThree = {1, 2, 3, 6, 7, 8, 9, 10};
 
-    private void Awake()
+    private void Start()
     {
         LoadCharacterName();
         LoadCharacterLevelAndExp();
         
-        SetSubMenuGameObjectsInactive();
+        SetAllSubMenuGameObjectsInactive();
         LoadClassDropdownValue();
         SetSubMenuGameObjectsActive();
         SetSubMenuIsInteractable();
         LoadSubClassDropdownValue();
+        
+        SetAllSubRaceMenuGameObjectsInactive();
+        LoadRaceDropdownValue();
+        SetSubRaceMenuGameObjectActive();
+        LoadDropdownSubRaceMenuValue();
     }
 
     private void LoadCharacterName()
@@ -55,7 +83,7 @@ public class LoadCharacterSheetData : MonoBehaviour
         textField[1].text = charSheet.experience.ToString();
     }
 
-    private void SetSubMenuGameObjectsInactive()
+    private void SetAllSubMenuGameObjectsInactive()
     {
         for (int i = 0; i < subMenus.Count; i++)
         {
@@ -92,6 +120,29 @@ public class LoadCharacterSheetData : MonoBehaviour
     private void LoadSubClassDropdownValue()
     {
         dropdownSubClassMenus[dropdownMainMenus[0].value].value = charSheet.subClassMenuDropdownValue;
+    }
+
+    private void SetAllSubRaceMenuGameObjectsInactive()
+    {
+        for (int i = 0; i < subRaceMenuGameObjects.Count; i++)
+        {
+            subRaceMenuGameObjects[i].SetActive(false);
+        }
+    }
+
+    private void LoadRaceDropdownValue()
+    {
+        dropdownMainMenus[1].value = charSheet.raceMenuDropdownValue;
+    }
+
+    private void SetSubRaceMenuGameObjectActive()
+    {
+        subRaceMenuGameObjects[dropdownMainMenus[1].value].SetActive(true);
+    }
+
+    private void LoadDropdownSubRaceMenuValue()
+    {
+        dropdownSubRaceMenus[dropdownMainMenus[1].value].value = charSheet.subRaceMenuDropdownValue;
     }
     
     

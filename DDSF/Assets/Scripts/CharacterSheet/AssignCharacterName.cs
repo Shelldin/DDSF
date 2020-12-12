@@ -9,7 +9,7 @@ public class AssignCharacterName : MonoBehaviour
     public InputField characterNameField;
     public CharacterSheetSO charSheet;
     
-    private void Awake()
+    private void Start()
     {
         characterNameField.onEndEdit.AddListener(ReceiveStringInput);
     }

@@ -33,10 +33,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/TabActivate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" />
       </list>
     </option>
   </component>
@@ -91,6 +91,7 @@
       <workItem from="1607388047013" duration="13986000" />
       <workItem from="1607474684112" duration="7869000" />
       <workItem from="1607560502163" duration="9775000" />
+      <workItem from="1607735150376" duration="9047000" />
     </task>
     <servers />
   </component>

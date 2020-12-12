@@ -11,7 +11,7 @@ public class ExpAndLevelAssinger : MonoBehaviour
     public Text expText;
     public InputField expInputField;
 
-    private void Awake()
+    private void Start()
     {
         expInputField.onEndEdit.AddListener(AssignExpValue);
     }

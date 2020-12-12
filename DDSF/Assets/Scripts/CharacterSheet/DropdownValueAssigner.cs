@@ -7,23 +7,34 @@ using UnityEngine.UI;
 public class DropdownValueAssigner : MonoBehaviour
 {
     public List<Dropdown> dropdownMainMenus = new List<Dropdown>();
+    
     public List<GameObject> subMenuGameObjects = new List<GameObject>();
     public List<Dropdown> dropdownSubClassMenus = new List<Dropdown>();
+    
+    public List<GameObject> subRaceMenuGameObjects = new List<GameObject>();
+    public List<Dropdown>  dropdownSubRaceMenus = new List<Dropdown>();
+    
     public CharacterSheetSO charSheet;
 
-    private void Awake()
+    private void Start()
     {
         dropdownMainMenus[0].onValueChanged.AddListener(AssignClassMenuDropdownValue);
         for (int i = 0; i < dropdownSubClassMenus.Count; i++)
         {
             dropdownSubClassMenus[i].onValueChanged.AddListener(AssignSubClassMenuDropdownValue);
         }
+        
+        dropdownMainMenus[1].onValueChanged.AddListener(AssignRaceDropdownMenuValue);
+        for (int i = 0; i < dropdownSubRaceMenus.Count; i++)
+        {
+            dropdownSubRaceMenus[i].onValueChanged.AddListener(AssignDropdownSubRaceMenuValue);
+        }
     }
 
     private void AssignClassMenuDropdownValue(int classChoiceValue)
     {
         charSheet.classMenuDropdownValue = classChoiceValue;
-        SetSubMenuGameObjectsInactive();
+        SetAllSubMenuGameObjectsInactive();
         SetSubMenuGameObjectsActive();
         SetSubMenuIsInteractable();
     }
@@ -33,7 +44,7 @@ public class DropdownValueAssigner : MonoBehaviour
         charSheet.subClassMenuDropdownValue = subClassChoiceValue;
     }
     
-    private void SetSubMenuGameObjectsInactive()
+    private void SetAllSubMenuGameObjectsInactive()
     {
         for (int i = 0; i < subMenuGameObjects.Count; i++)
         {
@@ -61,6 +72,29 @@ public class DropdownValueAssigner : MonoBehaviour
             dropdownSubClassMenus[dropdownMainMenus[0].value].interactable = true;
         }
     }
-    
-    
+
+    private void AssignRaceDropdownMenuValue(int raceChoiceValue)
+    {
+        charSheet.raceMenuDropdownValue = raceChoiceValue;
+        SetAllSubRaceMenuGameObjectsInactive();
+        SetSubRaceMenuGameObjectActive();
+    }
+
+    private void SetAllSubRaceMenuGameObjectsInactive()
+    {
+        for (int i = 0; i < subRaceMenuGameObjects.Count; i++)
+        {
+            subRaceMenuGameObjects[i].SetActive(false);
+        }
+    }
+
+    private void SetSubRaceMenuGameObjectActive()
+    {
+        subRaceMenuGameObjects[dropdownMainMenus[1].value].SetActive(true);
+    }
+
+    private void AssignDropdownSubRaceMenuValue(int subRaceChoiceValue)
+    {
+        charSheet.subRaceMenuDropdownValue = subRaceChoiceValue;
+    }
 }

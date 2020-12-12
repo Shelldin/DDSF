@@ -10,6 +10,8 @@ public class CharacterSheetSO : ScriptableObject
 
     public int classMenuDropdownValue,
         subClassMenuDropdownValue,
+        raceMenuDropdownValue,
+        subRaceMenuDropdownValue,
         level,
         experience,
         proficiencyBonus,
