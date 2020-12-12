@@ -12,11 +12,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ArtificerFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DruidFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/BarbarianFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/BardFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,8 +39,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LevelFeatureUnlocker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DruidFeatureUnlocker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/BarbarianFeatureUnlocker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/BardFeatureUnlocker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ArtificerFeatureUnlocker.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +101,8 @@
       <workItem from="1607474684112" duration="7869000" />
       <workItem from="1607560502163" duration="9775000" />
       <workItem from="1607735150376" duration="9047000" />
+      <workItem from="1607767200030" duration="810000" />
+      <workItem from="1607778284783" duration="3969000" />
     </task>
     <servers />
   </component>
