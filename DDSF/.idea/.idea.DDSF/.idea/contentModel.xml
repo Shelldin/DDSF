@@ -8,13 +8,21 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterSheet" t="Include">
-            <e p="ArtificerFeatureUnlocker.cs" t="Include" />
             <e p="AssignCharacterName.cs" t="Include" />
-            <e p="BarbarianFeatureUnlocker.cs" t="Include" />
-            <e p="BardFeatureUnlocker.cs" t="Include" />
             <e p="CharacterSheetMenu.cs" t="Include" />
+            <e p="ClassFeatureUnlockers" t="Include">
+              <e p="ArtificerFeatureUnlocker.cs" t="Include" />
+              <e p="BarbarianFeatureUnlocker.cs" t="Include" />
+              <e p="BardFeatureUnlocker.cs" t="Include" />
+              <e p="DruidFeatureUnlocker.cs" t="Include" />
+              <e p="FighterFeatureUnlocker.cs" t="Include" />
+              <e p="MonkFeatureUnlocker.cs" t="Include" />
+              <e p="PaladinFeatureUnlocker.cs" t="Include" />
+              <e p="RangerFeatureUnlocker.cs" t="Include" />
+              <e p="RogueFeatureUnlocker.cs" t="Include" />
+              <e p="WizardFeatureUnlocker.cs" t="Include" />
+            </e>
             <e p="DropdownValueAssigner.cs" t="Include" />
-            <e p="DruidFeatureUnlocker.cs" t="Include" />
             <e p="ExpAndLevelAssinger.cs" t="Include" />
             <e p="LoadCharacterSheetData.cs" t="Include" />
           </e>

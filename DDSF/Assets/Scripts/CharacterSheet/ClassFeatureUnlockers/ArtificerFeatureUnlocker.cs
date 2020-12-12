@@ -9,6 +9,7 @@ public class ArtificerFeatureUnlocker : MonoBehaviour
     public CharacterSheetSO charSheet;
     public InputField expInputField;
     public Dropdown subClassDropdown;
+    
 
     private void Start()
     {
@@ -22,6 +23,8 @@ public class ArtificerFeatureUnlocker : MonoBehaviour
 
     private void UnlockSubClassDropdown()
     {
+        
+        
         if (charSheet.level>=3 && charSheet.classMenuDropdownValue ==1)
         {
             subClassDropdown.interactable = true;
