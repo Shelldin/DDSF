@@ -12,6 +12,8 @@ public class CharacterSheetSO : ScriptableObject
         subClassMenuDropdownValue,
         raceMenuDropdownValue,
         subRaceMenuDropdownValue,
+        backgroundDropdownValue,
+        alignmentDropdownValue,
         level,
         experience,
         proficiencyBonus,

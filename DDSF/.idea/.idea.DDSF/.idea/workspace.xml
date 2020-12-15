@@ -38,8 +38,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/SideIntValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/TabActivate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" />
@@ -55,6 +53,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/RangerFeatureUnlocker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/RogueFeatureUnlocker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/WizardFeatureUnlocker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
       </list>
     </option>
   </component>
@@ -113,6 +113,7 @@
       <workItem from="1607767200030" duration="810000" />
       <workItem from="1607778284783" duration="3969000" />
       <workItem from="1607814543388" duration="2571000" />
+      <workItem from="1608015058505" duration="338000" />
     </task>
     <servers />
   </component>

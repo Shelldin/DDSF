@@ -70,6 +70,10 @@ public class LoadCharacterSheetData : MonoBehaviour
         LoadRaceDropdownValue();
         SetSubRaceMenuGameObjectActive();
         LoadDropdownSubRaceMenuValue();
+        
+        LoadBackgroundDropdownValue();
+        
+        LoadAlignmentDropdownValue();
     }
 
     private void LoadCharacterName()
@@ -144,6 +148,14 @@ public class LoadCharacterSheetData : MonoBehaviour
     {
         dropdownSubRaceMenus[dropdownMainMenus[1].value].value = charSheet.subRaceMenuDropdownValue;
     }
-    
-    
+
+    private void LoadBackgroundDropdownValue()
+    {
+        dropdownMainMenus[2].value = charSheet.backgroundDropdownValue;
+    }
+
+    private void LoadAlignmentDropdownValue()
+    {
+        dropdownMainMenus[3].value = charSheet.alignmentDropdownValue;
+    }
 }
