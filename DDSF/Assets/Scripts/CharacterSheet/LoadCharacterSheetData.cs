@@ -64,7 +64,7 @@ public class LoadCharacterSheetData : MonoBehaviour
 
     //private int[] subAtThree = {1, 2, 3, 6, 7, 8, 9, 10};
 
-    private void Start()
+    private void Awake()
     {
         LoadCharacterName();
         LoadCharacterLevelAndExp();
@@ -83,6 +83,8 @@ public class LoadCharacterSheetData : MonoBehaviour
         LoadBackgroundDropdownValue();
         
         LoadAlignmentDropdownValue();
+        
+        LoadHitPointValues();
     }
 
     private void LoadCharacterName()
@@ -166,5 +168,12 @@ public class LoadCharacterSheetData : MonoBehaviour
     private void LoadAlignmentDropdownValue()
     {
         dropdownMainMenus[3].value = charSheet.alignmentDropdownValue;
+    }
+
+    private void LoadHitPointValues()
+    {
+        textField[2].text = charSheet.currentHitPoints.ToString();
+        textField[3].text = charSheet.hitPointMax.ToString();
+        textField[4].text = charSheet.tempHitPoints.ToString();
     }
 }
