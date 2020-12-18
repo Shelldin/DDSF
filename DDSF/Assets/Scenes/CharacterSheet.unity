@@ -1913,18 +1913,18 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98753927}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.1963483, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 383.34528}
+  m_LocalScale: {x: 0.8587501, y: 0.85874987, z: 0.8587501}
   m_Children:
   - {fileID: 1977279296}
   - {fileID: 1899171918}
   - {fileID: 1326526408}
-  m_Father: {fileID: 853957983}
-  m_RootOrder: 4
+  m_Father: {fileID: 1692843830}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -113.4, y: -37.4}
+  m_AnchoredPosition: {x: 41.45849, y: -54.626633}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &98753929
@@ -1977,23 +1977,83 @@ MonoBehaviour:
     m_Options:
     - m_Text: Select Background
       m_Image: {fileID: 0}
-    - m_Text: Artificer
+    - m_Text: Acolyte
       m_Image: {fileID: 0}
-    - m_Text: Barbarian
+    - m_Text: Anthropologist
       m_Image: {fileID: 0}
-    - m_Text: Bard
+    - m_Text: Archaeologist
       m_Image: {fileID: 0}
-    - m_Text: Cleric
+    - m_Text: Charlatan
       m_Image: {fileID: 0}
-    - m_Text: Druid
+    - m_Text: City Watch
       m_Image: {fileID: 0}
-    - m_Text: Fighter
+    - m_Text: Clan Crafter
       m_Image: {fileID: 0}
-    - m_Text: Monk
+    - m_Text: Cloistered Scholar
       m_Image: {fileID: 0}
-    - m_Text: Paladin
+    - m_Text: Courtier
       m_Image: {fileID: 0}
-    - m_Text: Ranger
+    - m_Text: Criminal
+      m_Image: {fileID: 0}
+    - m_Text: Entertainer
+      m_Image: {fileID: 0}
+    - m_Text: Faction Agent
+      m_Image: {fileID: 0}
+    - m_Text: Far Traveler
+      m_Image: {fileID: 0}
+    - m_Text: Fisher
+      m_Image: {fileID: 0}
+    - m_Text: Folk Hero
+      m_Image: {fileID: 0}
+    - m_Text: Gladiator
+      m_Image: {fileID: 0}
+    - m_Text: Guild Artisan
+      m_Image: {fileID: 0}
+    - m_Text: Guild Merchant
+      m_Image: {fileID: 0}
+    - m_Text: Haunted One
+      m_Image: {fileID: 0}
+    - m_Text: Hermit
+      m_Image: {fileID: 0}
+    - m_Text: House Agent
+      m_Image: {fileID: 0}
+    - m_Text: Inheritor
+      m_Image: {fileID: 0}
+    - m_Text: Investigator
+      m_Image: {fileID: 0}
+    - m_Text: Knight of the Order
+      m_Image: {fileID: 0}
+    - m_Text: Marine
+      m_Image: {fileID: 0}
+    - m_Text: Mercenary Veteran
+      m_Image: {fileID: 0}
+    - m_Text: Noble
+      m_Image: {fileID: 0}
+    - m_Text: Noble Knight
+      m_Image: {fileID: 0}
+    - m_Text: Outlander
+      m_Image: {fileID: 0}
+    - m_Text: Pirate
+      m_Image: {fileID: 0}
+    - m_Text: Sage
+      m_Image: {fileID: 0}
+    - m_Text: Sailor
+      m_Image: {fileID: 0}
+    - m_Text: Shipwright
+      m_Image: {fileID: 0}
+    - m_Text: Smuggler
+      m_Image: {fileID: 0}
+    - m_Text: Soldier
+      m_Image: {fileID: 0}
+    - m_Text: Spy
+      m_Image: {fileID: 0}
+    - m_Text: Tribe Member
+      m_Image: {fileID: 0}
+    - m_Text: Urban Bounty Hunter
+      m_Image: {fileID: 0}
+    - m_Text: Urchin
+      m_Image: {fileID: 0}
+    - m_Text: Waterdeep Noble
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14883,8 +14943,7 @@ RectTransform:
   - {fileID: 1637163964}
   - {fileID: 248777121}
   - {fileID: 1136703182}
-  - {fileID: 1992692851}
-  - {fileID: 98753928}
+  - {fileID: 1692843830}
   - {fileID: 1105501648}
   m_Father: {fileID: 132061867}
   m_RootOrder: 0
@@ -20501,7 +20560,7 @@ Transform:
   - {fileID: 1963398579}
   - {fileID: 2042349647}
   m_Father: {fileID: 853957983}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1107009661
 GameObject:
@@ -31510,6 +31569,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691490533}
   m_CullTransparentMesh: 0
+--- !u!1 &1692843829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1692843830}
+  m_Layer: 0
+  m_Name: BackgroundFolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1692843830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692843829}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -161.6777, y: 105.17184, z: -446.39914}
+  m_LocalScale: {x: 1.1644832, y: 0.22864433, z: 1.1644832}
+  m_Children:
+  - {fileID: 1992692851}
+  - {fileID: 98753928}
+  m_Father: {fileID: 853957983}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1712468924
 GameObject:
   m_ObjectHideFlags: 0
@@ -34375,6 +34466,8 @@ MonoBehaviour:
   dropdownMainMenus:
   - {fileID: 1302421144}
   - {fileID: 1965403778}
+  - {fileID: 98753929}
+  - {fileID: 2042349648}
   subMenus:
   - {fileID: 1107009661}
   - {fileID: 10976555}
@@ -34487,6 +34580,8 @@ MonoBehaviour:
   dropdownMainMenus:
   - {fileID: 1302421144}
   - {fileID: 1965403778}
+  - {fileID: 98753929}
+  - {fileID: 2042349648}
   subMenuGameObjects:
   - {fileID: 1107009661}
   - {fileID: 10976555}
@@ -37984,15 +38079,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992692850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.19634828, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 383.34528}
+  m_LocalScale: {x: 0.8587501, y: 0.8587498, z: 0.8587501}
   m_Children: []
-  m_Father: {fileID: 853957983}
-  m_RootOrder: 3
+  m_Father: {fileID: 1692843830}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -235, y: -37}
+  m_AnchoredPosition: {x: -62.96553, y: -52.87718}
   m_SizeDelta: {x: 57.46698, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1992692852

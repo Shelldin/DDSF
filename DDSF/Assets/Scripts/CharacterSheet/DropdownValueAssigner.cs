@@ -29,6 +29,11 @@ public class DropdownValueAssigner : MonoBehaviour
         {
             dropdownSubRaceMenus[i].onValueChanged.AddListener(AssignDropdownSubRaceMenuValue);
         }
+        
+        dropdownMainMenus[2].onValueChanged.AddListener(AssignBackgroundDropdownValue);
+        
+        dropdownMainMenus[3].onValueChanged.AddListener(AssignAlignmentDropdownValue);
+        
     }
 
     private void AssignClassMenuDropdownValue(int classChoiceValue)
@@ -96,5 +101,15 @@ public class DropdownValueAssigner : MonoBehaviour
     private void AssignDropdownSubRaceMenuValue(int subRaceChoiceValue)
     {
         charSheet.subRaceMenuDropdownValue = subRaceChoiceValue;
+    }
+
+    private void AssignBackgroundDropdownValue(int bGChoiceValue)
+    {
+        charSheet.backgroundDropdownValue = bGChoiceValue;
+    }
+
+    private void AssignAlignmentDropdownValue(int alignmentChoiceValue)
+    {
+        charSheet.alignmentDropdownValue = alignmentChoiceValue;
     }
 }

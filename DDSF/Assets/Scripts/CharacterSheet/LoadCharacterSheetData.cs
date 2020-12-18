@@ -6,38 +6,47 @@ using UnityEngine.UI;
 
 public class LoadCharacterSheetData : MonoBehaviour
 {
-    /* CharacterClassIndex Key:   RaceIndex Key:
-     * 0 = Select Class...        0 = Select Race
-     * 1 = Artificer              1 = Aarakocra
-     *                            2 = Aasimar
-     * 2 = Barbarian              3 = Bugbear
-     * 3 = Bard                   4 = Changeling
-     * 4 = Cleric                 5 = Dragonborn
-     * 5 = Druid                  6 = Dwarf
-     * 6 = Fighter                7 = Elf
-     * 7 = Monk                   8 = Firbolg
-     * 8 = Paladin                9 = Genasi
-     * 9 = Ranger                 10 = Gith
-     * 10 = Rogue                 11 = Gnome
-     * 11 = Sorcerer              12 = Goblin
-     * 12 = Warlock               13 = Goliath
-     * 13 = Wizard                14 = Half-Elf
-     *                            15 = Half-Orc
-     *                            16 = Halfling
-     *                            17 = Hobgoblin
-     *                            18 = Human
-     *                            19 = Kalashtar
-     *                            20 = Kenku
-     *                            21 = Kobold
-     *                            22 = Lizardfolk
-     *                            23 = Orc
-     *                            24 = Shifter
-     *                            25 = Tabaxi
-     *                            26 = Tiefling
-     *                            27 = Tortle
-     *                            28 = Triton
-     *                            29 = Warforged
-     *                            30 = Yaun-ti Pureblood
+    /* CharacterClassIndex Key:   RaceIndex Key:            Background Key:
+     * 0 = Select Class...        0 = Select Race           0 = Select Background
+     * 1 = Artificer              1 = Aarakocra             1 = Acolyte
+     *                            2 = Aasimar               2 = Anthropologist
+     * 2 = Barbarian              3 = Bugbear               3 = Archaeologist
+     * 3 = Bard                   4 = Changeling            4 = Charlatan
+     * 4 = Cleric                 5 = Dragonborn            5 = City Watch
+     * 5 = Druid                  6 = Dwarf                 6 = Clan Crafter
+     * 6 = Fighter                7 = Elf                   7 = Cloistered Scholar
+     * 7 = Monk                   8 = Firbolg               8 = Courtier
+     * 8 = Paladin                9 = Genasi                9 = Criminal
+     * 9 = Ranger                 10 = Gith                 10 = Entertainer
+     * 10 = Rogue                 11 = Gnome                11 = Faction Agent
+     * 11 = Sorcerer              12 = Goblin               12 = Far Traveler
+     * 12 = Warlock               13 = Goliath              13 = Fisher
+     * 13 = Wizard                14 = Half-Elf             14 = Folk Hero
+     *                            15 = Half-Orc             15 = Gladiator
+     *                            16 = Halfling             16 = Guild Artisan
+     *                            17 = Hobgoblin            17 = Guild Merchant
+     *                            18 = Human                18 = Haunted One
+     *                            19 = Kalashtar            19 = Hermit
+     *                            20 = Kenku                20 = House Agent
+     *                            21 = Kobold               21 = Inheritor
+     *                            22 = Lizardfolk           22 = Investigator
+     *                            23 = Orc                  23 = Knight of the Order
+     *                            24 = Shifter              24 = Marine
+     *                            25 = Tabaxi               25 = Mercenary Veteran
+     *                            26 = Tiefling             26 = Noble
+     *                            27 = Tortle               27 = Noble Knight
+     *                            28 = Triton               28 = Outlander
+     *                            29 = Warforged            29 = Pirate
+     *                            30 = Yaun-ti Pureblood    30 = Sage
+     *                                                      31 = Sailor
+     *                                                      32 = Shipwright
+     *                                                      33 = Smuggler
+     *                                                      34 = Soldier
+     *                                                      35 = Spy
+     *                                                      36 = Tribe Member
+     *                                                      37 = Urban Bounty Hunter
+     *                                                      38 = Urchin
+     *                                                      39 = Waterdhavian Noble
      */
     
     public CharacterSheetSO charSheet;

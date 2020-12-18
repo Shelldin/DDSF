@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: TestSheet
   m_EditorClassIdentifier: 
   characterName: 
-  classMenuDropdownValue: 0
+  classMenuDropdownValue: 13
   subClassMenuDropdownValue: 0
-  raceMenuDropdownValue: 0
-  subRaceMenuDropdownValue: 0
+  raceMenuDropdownValue: 7
+  subRaceMenuDropdownValue: 5
+  backgroundDropdownValue: 30
+  alignmentDropdownValue: 5
   level: 1
   experience: 0
   proficiencyBonus: 0
