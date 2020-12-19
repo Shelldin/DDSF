@@ -24,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/HitPointValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/HitDiceController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,10 +54,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/RangerFeatureUnlocker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/RogueFeatureUnlocker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/WizardFeatureUnlocker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/HitPointValueAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/HitDiceController.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +119,7 @@
       <workItem from="1607814543388" duration="2571000" />
       <workItem from="1608015058505" duration="3546000" />
       <workItem from="1608272509573" duration="4446000" />
+      <workItem from="1608377247639" duration="6090000" />
     </task>
     <servers />
   </component>

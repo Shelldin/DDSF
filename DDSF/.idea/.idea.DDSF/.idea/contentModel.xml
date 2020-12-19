@@ -24,6 +24,7 @@
             </e>
             <e p="DropdownValueAssigner.cs" t="Include" />
             <e p="ExpAndLevelAssinger.cs" t="Include" />
+            <e p="HitDiceController.cs" t="Include" />
             <e p="HitPointValueAssigner.cs" t="Include" />
             <e p="LoadCharacterSheetData.cs" t="Include" />
           </e>

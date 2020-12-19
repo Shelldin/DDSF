@@ -85,6 +85,7 @@ public class LoadCharacterSheetData : MonoBehaviour
         LoadAlignmentDropdownValue();
         
         LoadHitPointValues();
+        LoadHitDiceText();
     }
 
     private void LoadCharacterName()
@@ -175,5 +176,13 @@ public class LoadCharacterSheetData : MonoBehaviour
         textField[2].text = charSheet.currentHitPoints.ToString();
         textField[3].text = charSheet.hitPointMax.ToString();
         textField[4].text = charSheet.tempHitPoints.ToString();
+    }
+
+    private void LoadHitDiceText()
+    {
+        textField[5].text = charSheet.currentHitDice.ToString();
+        textField[6].text = charSheet.hitDiceSideInt.ToString();
+        textField[7].text = charSheet.maxHitDice.ToString();
+        textField[8].text = charSheet.hitDiceSideInt.ToString();
     }
 }
