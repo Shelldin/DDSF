@@ -181,7 +181,7 @@ public class LoadCharacterSheetData : MonoBehaviour
     private void LoadHitDiceText()
     {
         textField[5].text = charSheet.currentHitDice.ToString();
-        textField[6].text = charSheet.hitDiceSideInt.ToString();
+        textField[6].text = charSheet.maxHitDice.ToString();
         textField[7].text = charSheet.maxHitDice.ToString();
         textField[8].text = charSheet.hitDiceSideInt.ToString();
     }

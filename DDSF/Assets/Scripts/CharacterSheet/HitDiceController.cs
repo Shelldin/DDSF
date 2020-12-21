@@ -8,9 +8,9 @@ public class HitDiceController : MonoBehaviour
 {
     public CharacterSheetSO charSheet;
     public Text currentHitDice;
-    public Text hitDiceSideNumber;
     public Text maxHitDice;
-    public Text maxHitDiceSideNumber;
+    public Text maxHitDiceHeader;
+    public Text maxHitDiceSideNumberHeader;
     public InputField hitDiceInputField;
     public InputField expInputField;
     public Dropdown classDropdownMenu;
@@ -49,15 +49,15 @@ public class HitDiceController : MonoBehaviour
         {
             charSheet.hitDiceSideInt = 12;
         }
-
-        hitDiceSideNumber.text = charSheet.hitDiceSideInt.ToString();
-        maxHitDiceSideNumber.text = charSheet.hitDiceSideInt.ToString();
+        
+        maxHitDiceSideNumberHeader.text = charSheet.hitDiceSideInt.ToString();
     }
 
     private void SetMaxDiceNumber(string expInput)
     {
         charSheet.maxHitDice = charSheet.level;
-        maxHitDice.text = charSheet.maxHitDice.ToString();
+        maxHitDice.text = charSheet.level.ToString();
+        maxHitDiceHeader.text = charSheet.maxHitDice.ToString();
         if (charSheet.currentHitDice > charSheet.maxHitDice)
         {
             charSheet.currentHitDice = charSheet.maxHitDice;

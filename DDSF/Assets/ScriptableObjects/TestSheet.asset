@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: TestSheet
   m_EditorClassIdentifier: 
   characterName: 
-  classMenuDropdownValue: 13
-  subClassMenuDropdownValue: 0
+  classMenuDropdownValue: 12
+  subClassMenuDropdownValue: 5
   raceMenuDropdownValue: 7
   subRaceMenuDropdownValue: 5
   backgroundDropdownValue: 30
   alignmentDropdownValue: 5
-  level: 1
-  experience: 0
+  level: 4
+  experience: 5600
   proficiencyBonus: 0
   str: 0
   dex: 0
@@ -31,6 +31,9 @@ MonoBehaviour:
   hitPointMax: 0
   currentHitPoints: 0
   tempHitPoints: 0
+  currentHitDice: 2
+  hitDiceSideInt: 10
+  maxHitDice: 2
   armorClass: 0
   walkSpeed: 0
   walkSpeedSpace: 0
