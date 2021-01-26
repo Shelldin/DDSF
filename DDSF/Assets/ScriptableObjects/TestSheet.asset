@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: TestSheet
   m_EditorClassIdentifier: 
   characterName: 
+  deathSaveBools: 000000000000
   classMenuDropdownValue: 12
   subClassMenuDropdownValue: 5
-  raceMenuDropdownValue: 7
-  subRaceMenuDropdownValue: 5
+  raceMenuDropdownValue: 15
+  subRaceMenuDropdownValue: 0
   backgroundDropdownValue: 30
   alignmentDropdownValue: 5
   level: 4

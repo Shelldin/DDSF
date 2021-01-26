@@ -61,6 +61,7 @@ public class LoadCharacterSheetData : MonoBehaviour
     public List<Dropdown> dropdownSubRaceMenus = new List<Dropdown>();
     
     public List<Text> textField = new List<Text>();
+    public List<Toggle> deathSaveToggles = new List<Toggle>();
 
     //private int[] subAtThree = {1, 2, 3, 6, 7, 8, 9, 10};
 
@@ -86,6 +87,8 @@ public class LoadCharacterSheetData : MonoBehaviour
         
         LoadHitPointValues();
         LoadHitDiceText();
+        
+        LoadDeathSaves();
     }
 
     private void LoadCharacterName()
@@ -158,6 +161,7 @@ public class LoadCharacterSheetData : MonoBehaviour
 
     private void LoadDropdownSubRaceMenuValue()
     {
+        
         dropdownSubRaceMenus[dropdownMainMenus[1].value].value = charSheet.subRaceMenuDropdownValue;
     }
 
@@ -184,5 +188,13 @@ public class LoadCharacterSheetData : MonoBehaviour
         textField[6].text = charSheet.maxHitDice.ToString();
         textField[7].text = charSheet.maxHitDice.ToString();
         textField[8].text = charSheet.hitDiceSideInt.ToString();
+    }
+
+    private void LoadDeathSaves()
+    {
+        for (int i = 0; i < deathSaveToggles.Count; i++)
+        {
+            deathSaveToggles[i].isOn = charSheet.deathSaveBools[i];
+        }
     }
 }

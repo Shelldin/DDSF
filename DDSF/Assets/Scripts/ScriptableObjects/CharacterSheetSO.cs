@@ -7,6 +7,7 @@ using UnityEngine.UIElements;
 public class CharacterSheetSO : ScriptableObject
 {
     public string characterName;
+    public List<bool> deathSaveBools = new List<bool>();
 
     public int classMenuDropdownValue,
         subClassMenuDropdownValue,
@@ -36,6 +37,31 @@ public class CharacterSheetSO : ScriptableObject
         swimSpeedSpace,
         flySpeed,
         flySpeedSpace;
+
+    public void DeathSaveToggleSOne()
+    {
+        deathSaveBools[0] = !deathSaveBools[0];
+    }
     
+    public void DeathSaveToggleSTwo()
+    {
+        deathSaveBools[1] = !deathSaveBools[1];
+    }
+    public void DeathSaveToggleSThree()
+    {
+        deathSaveBools[2] = !deathSaveBools[2];
+    }
+    public void DeathSaveToggleFOne()
+    {
+        deathSaveBools[3] = !deathSaveBools[3];
+    }
+    public void DeathSaveToggleFTwo()
+    {
+        deathSaveBools[4] = !deathSaveBools[4];
+    }
+    public void DeathSaveToggleFThree()
+    {
+        deathSaveBools[5] = !deathSaveBools[5];
+    }
     
 }

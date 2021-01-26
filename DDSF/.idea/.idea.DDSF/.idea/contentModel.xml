@@ -22,6 +22,7 @@
               <e p="RogueFeatureUnlocker.cs" t="Include" />
               <e p="WizardFeatureUnlocker.cs" t="Include" />
             </e>
+            <e p="DeathSaveToggler.cs" t="Include" />
             <e p="DropdownValueAssigner.cs" t="Include" />
             <e p="ExpAndLevelAssinger.cs" t="Include" />
             <e p="HitDiceController.cs" t="Include" />
