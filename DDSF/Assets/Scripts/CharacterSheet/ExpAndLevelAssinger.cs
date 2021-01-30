@@ -31,6 +31,7 @@ public class ExpAndLevelAssinger : MonoBehaviour
         expText.text = charSheet.experience.ToString();
         expInputField.text = null;
         AssignLevelValue();
+        AssignMaxHitDice();
     }
 
     private void AssignLevelValue()
@@ -118,5 +119,10 @@ public class ExpAndLevelAssinger : MonoBehaviour
 
         levelText.text = charSheet.level.ToString();
     }
-    
+
+    private void AssignMaxHitDice()
+    {
+        charSheet.maxHitDice = charSheet.level;
+    }
+
 }

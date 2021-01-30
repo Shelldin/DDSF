@@ -36,7 +36,8 @@ public class CharacterSheetSO : ScriptableObject
         swimSpeed,
         swimSpeedSpace,
         flySpeed,
-        flySpeedSpace;
+        flySpeedSpace,
+        initiative;
 
     public void DeathSaveToggleSOne()
     {
@@ -63,5 +64,7 @@ public class CharacterSheetSO : ScriptableObject
     {
         deathSaveBools[5] = !deathSaveBools[5];
     }
+
+    
     
 }

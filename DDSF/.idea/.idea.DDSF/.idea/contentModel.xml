@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterSheet" t="Include">
+            <e p="ArmorClassAssigner.cs" t="Include" />
             <e p="AssignCharacterName.cs" t="Include" />
             <e p="CharacterSheetMenu.cs" t="Include" />
             <e p="ClassFeatureUnlockers" t="Include">
@@ -25,10 +26,13 @@
             <e p="DeathSaveToggler.cs" t="Include" />
             <e p="DropdownValueAssigner.cs" t="Include" />
             <e p="ExpAndLevelAssinger.cs" t="Include" />
+            <e p="FlySpeedAssigner.cs" t="Include" />
             <e p="HitDiceController.cs" t="Include" />
             <e p="HitPointValueAssigner.cs" t="Include" />
-            <e p="InputTextAssinger.cs" t="Include" />
+            <e p="InitiativeAssigner.cs" t="Include" />
             <e p="LoadCharacterSheetData.cs" t="Include" />
+            <e p="SpeedAssigner.cs" t="Include" />
+            <e p="SwimSpeedAssigner.cs" t="Include" />
           </e>
           <e p="DiceUI+Rolling" t="Include">
             <e p="DiceIntValueAssigner.cs" t="Include" />

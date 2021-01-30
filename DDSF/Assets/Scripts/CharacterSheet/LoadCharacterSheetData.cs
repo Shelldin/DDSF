@@ -50,7 +50,12 @@ public class LoadCharacterSheetData : MonoBehaviour
      */
     
     public CharacterSheetSO charSheet;
-    public InputField charNameInputField;
+    public InputField charNameInputField,
+        armorClassInputField,
+        initiativeInputField,
+        speedInputField,
+        flySpeedInputField,
+        swimSpeedInputField;
     
     public List<Dropdown> dropdownMainMenus = new List<Dropdown>();
     
@@ -89,6 +94,10 @@ public class LoadCharacterSheetData : MonoBehaviour
         LoadHitDiceText();
         
         LoadDeathSaves();
+        
+        LoadArmorClass();
+        LoadInitiative();
+        LoadSpeeds();
     }
 
     private void LoadCharacterName()
@@ -196,5 +205,22 @@ public class LoadCharacterSheetData : MonoBehaviour
         {
             deathSaveToggles[i].isOn = charSheet.deathSaveBools[i];
         }
+    }
+
+    private void LoadArmorClass()
+    {
+        armorClassInputField.text = charSheet.armorClass.ToString();
+    }
+    
+    private void LoadInitiative()
+    {
+        initiativeInputField.text = charSheet.initiative.ToString();
+    }
+    
+    private void LoadSpeeds()
+    {
+        speedInputField.text = charSheet.walkSpeed.ToString();
+        flySpeedInputField.text = charSheet.flySpeed.ToString();
+        swimSpeedInputField.text = charSheet.swimSpeed.ToString();
     }
 }

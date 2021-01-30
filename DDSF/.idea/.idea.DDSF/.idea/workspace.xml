@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9dcb65-1c86-4ccc-a2bd-966c2ecd8106" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterSheet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterSheet.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/TestSheet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/TestSheet.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/InputTextAssinger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ArmorClassAssigner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/InputTextAssinger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ArmorClassAssigner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,15 +43,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/RangerFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/SwimSpeedAssigner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/WizardFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DeathSaveToggler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/PaladinFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/FlySpeedAssigner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/FighterFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/RogueFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ClassFeatureUnlockers/MonkFeatureUnlocker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/SpeedAssigner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/HitPointValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/ModifierIntValueAssigner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,7 +75,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceUI+Rolling/TabActivate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/CharacterSheetMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LevelFeatureUnlocker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DruidFeatureUnlocker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/BarbarianFeatureUnlocker.cs" />
@@ -62,10 +90,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/HitPointValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/HitDiceController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DeathSaveToggler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/InputTextAssinger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ArmorClassAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/InitiativeAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/SpeedsAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/SpeedAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/FlySpeedAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/SwimSpeedAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
       </list>
     </option>
   </component>
@@ -130,7 +165,7 @@
       <workItem from="1608529181388" duration="1519000" />
       <workItem from="1611639802895" duration="1380000" />
       <workItem from="1611644102091" duration="5819000" />
-      <workItem from="1611960870029" duration="4481000" />
+      <workItem from="1611960870029" duration="12560000" />
     </task>
     <servers />
   </component>
@@ -139,6 +174,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

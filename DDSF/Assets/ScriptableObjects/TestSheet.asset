@@ -20,8 +20,8 @@ MonoBehaviour:
   subRaceMenuDropdownValue: 0
   backgroundDropdownValue: 30
   alignmentDropdownValue: 5
-  level: 4
-  experience: 5600
+  level: 5
+  experience: 10600
   proficiencyBonus: 0
   str: 0
   dex: 0
@@ -33,9 +33,9 @@ MonoBehaviour:
   currentHitPoints: 0
   tempHitPoints: 0
   currentHitDice: 2
-  hitDiceSideInt: 10
-  maxHitDice: 2
-  armorClass: 0
+  hitDiceSideInt: 8
+  maxHitDice: 5
+  armorClass: 15
   walkSpeed: 0
   walkSpeedSpace: 0
   swimSpeed: 0
