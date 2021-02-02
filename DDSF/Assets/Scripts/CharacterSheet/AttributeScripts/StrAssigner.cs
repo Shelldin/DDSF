@@ -1,5 +1,4 @@
 ﻿
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +10,7 @@ public class StrAssigner : MonoBehaviour
 
     private int modifierInt;
     private float modifierFloat;
+    
 
     void Start()
     {
@@ -26,7 +26,23 @@ public class StrAssigner : MonoBehaviour
             inputField.text = charSheet.str.ToString();
         }
 
-        modifierFloat = Mathf.Floor((charSheet.str - 10) / 2);
-        Debug.Log(modifierFloat.ToString());
+        if (charSheet.str <10)
+        {
+            if (charSheet.str % 2 == 0)//from unity forums https://answers.unity.com/questions/1036351/how-to-tell-if-an-int-is-even.html
+            {
+                modifierFloat = Mathf.Floor((charSheet.str - 10)/2 - 1) + 1f;
+            }
+            else
+            {
+                modifierFloat = Mathf.Floor((charSheet.str - 10)/2 - 1);
+            }
+        }
+
+        else
+        {
+            modifierFloat = Mathf.Floor((charSheet.str - 10)/2); 
+        }
+
+        modifierText.text = modifierFloat.ToString();
     }
 }

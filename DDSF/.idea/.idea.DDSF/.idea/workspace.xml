@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9dcb65-1c86-4ccc-a2bd-966c2ecd8106" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterSheet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterSheet.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AttributeScripts/StrAssigner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AttributeScripts/StrAssigner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +159,7 @@
       <workItem from="1611639802895" duration="1380000" />
       <workItem from="1611644102091" duration="5819000" />
       <workItem from="1611960870029" duration="12560000" />
-      <workItem from="1612242673231" duration="4110000" />
+      <workItem from="1612242673231" duration="7838000" />
     </task>
     <servers />
   </component>
