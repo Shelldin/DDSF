@@ -24,12 +24,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterSheet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterSheet.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/TestSheet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/TestSheet.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/InputTextAssinger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ArmorClassAssigner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/InputTextAssinger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ArmorClassAssigner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +95,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/FlySpeedAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/SwimSpeedAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AttributeScripts/StrAssigner.cs" />
       </list>
     </option>
   </component>
@@ -166,6 +161,7 @@
       <workItem from="1611639802895" duration="1380000" />
       <workItem from="1611644102091" duration="5819000" />
       <workItem from="1611960870029" duration="12560000" />
+      <workItem from="1612242673231" duration="4110000" />
     </task>
     <servers />
   </component>
@@ -184,6 +180,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
