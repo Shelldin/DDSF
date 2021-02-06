@@ -18992,7 +18992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14.699951, y: -662.52844}
+  m_AnchoredPosition: {x: -14.699951, y: -662.6196}
   m_SizeDelta: {x: -180.23932, y: 260.3128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853957984
@@ -34293,8 +34293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.5}
-  m_SizeDelta: {x: -20, y: -13}
+  m_AnchoredPosition: {x: 0.0017566681, y: 0.000009536743}
+  m_SizeDelta: {x: 0.0035552979, y: -0.000034332275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1493421732
 MonoBehaviour:
@@ -41925,6 +41925,7 @@ GameObject:
   - component: {fileID: 1832343050}
   - component: {fileID: 1832343049}
   - component: {fileID: 1832343053}
+  - component: {fileID: 1832343054}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -42499,6 +42500,21 @@ MonoBehaviour:
   charSheet: {fileID: 11400000, guid: 1d5c9fa2ec51ba64aa221ffd39bfb897, type: 2}
   inputField: {fileID: 1666697208}
   modifierText: {fileID: 1370072122}
+--- !u!114 &1832343054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832343030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339d6dbc11533d54c8d087c98bdb3078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charSheet: {fileID: 11400000, guid: 1d5c9fa2ec51ba64aa221ffd39bfb897, type: 2}
+  inputField: {fileID: 1847698630}
+  modifierText: {fileID: 1144195289}
 --- !u!1 &1838765799
 GameObject:
   m_ObjectHideFlags: 0
@@ -49335,8 +49351,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 273001787}
   m_HandleRect: {fileID: 273001786}
   m_Direction: 2
-  m_Value: 0.99968046
-  m_Size: 0.15764561
+  m_Value: 0.99976224
+  m_Size: 0.1570148
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
