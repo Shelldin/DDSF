@@ -11,8 +11,12 @@
             <e p="ArmorClassAssigner.cs" t="Include" />
             <e p="AssignCharacterName.cs" t="Include" />
             <e p="AttributeScripts" t="Include">
+              <e p="ChaAssigner.cs" t="Include" />
+              <e p="ConAssigner.cs" t="Include" />
               <e p="DexAssigner.cs" t="Include" />
+              <e p="IntelAssigner.cs" t="Include" />
               <e p="StrAssigner.cs" t="Include" />
+              <e p="WisAssigner.cs" t="Include" />
             </e>
             <e p="CharacterSheetMenu.cs" t="Include" />
             <e p="ClassFeatureUnlockers" t="Include">
