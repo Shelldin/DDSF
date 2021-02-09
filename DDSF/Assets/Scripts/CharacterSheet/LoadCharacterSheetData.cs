@@ -57,6 +57,8 @@ public class LoadCharacterSheetData : MonoBehaviour
         flySpeedInputField,
         swimSpeedInputField;
     
+    
+    
     public List<Dropdown> dropdownMainMenus = new List<Dropdown>();
     
     public List<GameObject> subMenus = new List<GameObject>();
@@ -67,6 +69,16 @@ public class LoadCharacterSheetData : MonoBehaviour
     
     public List<Text> textField = new List<Text>();
     public List<Toggle> deathSaveToggles = new List<Toggle>();
+    
+    public List<InputField> attributeInputFields = new List<InputField>();
+    public List<Text> attributeModifierTexts = new List<Text>();
+
+    private float strModifier,
+        dexModifier,
+        conModifier,
+        intelModifier,
+        wisModifier,
+        chaModifier;
 
     //private int[] subAtThree = {1, 2, 3, 6, 7, 8, 9, 10};
 
@@ -98,6 +110,8 @@ public class LoadCharacterSheetData : MonoBehaviour
         LoadArmorClass();
         LoadInitiative();
         LoadSpeeds();
+        
+        LoadAttributes();
     }
 
     private void LoadCharacterName()
@@ -222,5 +236,130 @@ public class LoadCharacterSheetData : MonoBehaviour
         speedInputField.text = charSheet.walkSpeed.ToString();
         flySpeedInputField.text = charSheet.flySpeed.ToString();
         swimSpeedInputField.text = charSheet.swimSpeed.ToString();
+    }
+
+    private void LoadAttributes()
+    {
+        attributeInputFields[0].text = charSheet.str.ToString();
+        attributeInputFields[1].text = charSheet.dex.ToString();
+        attributeInputFields[2].text = charSheet.con.ToString();
+        attributeInputFields[3].text = charSheet.intel.ToString();
+        attributeInputFields[4].text = charSheet.wis.ToString();
+        attributeInputFields[5].text = charSheet.cha.ToString();
+        
+        if (charSheet.str <10)
+        {
+            if (charSheet.str % 2 == 0)//from unity forums https://answers.unity.com/questions/1036351/how-to-tell-if-an-int-is-even.html
+            {
+                strModifier = Mathf.Floor((charSheet.str - 10)/2 - 1) + 1f;
+            }
+            else
+            {
+                strModifier = Mathf.Floor((charSheet.str - 10)/2 - 1);
+            }
+        }
+
+        else
+        {
+            strModifier = Mathf.Floor((charSheet.str - 10)/2); 
+        }
+
+        attributeModifierTexts[0].text = strModifier.ToString();
+        
+        if (charSheet.dex <10)
+        {
+            if (charSheet.dex % 2 == 0)//from unity forums https://answers.unity.com/questions/1036351/how-to-tell-if-an-int-is-even.html
+            {
+                dexModifier = Mathf.Floor((charSheet.dex - 10)/2 - 1) + 1f;
+            }
+            else
+            {
+                dexModifier = Mathf.Floor((charSheet.dex - 10)/2 - 1);
+            }
+        }
+
+        else
+        {
+            dexModifier = Mathf.Floor((charSheet.dex - 10)/2); 
+        }
+
+        attributeModifierTexts[1].text = dexModifier.ToString();
+        
+        if (charSheet.con <10)
+        {
+            if (charSheet.con % 2 == 0)//from unity forums https://answers.unity.com/questions/1036351/how-to-tell-if-an-int-is-even.html
+            {
+                conModifier = Mathf.Floor((charSheet.con - 10)/2 - 1) + 1f;
+            }
+            else
+            {
+                conModifier = Mathf.Floor((charSheet.con - 10)/2 - 1);
+            }
+        }
+
+        else
+        {
+            conModifier = Mathf.Floor((charSheet.con - 10)/2); 
+        }
+
+        attributeModifierTexts[2].text = conModifier.ToString();
+        
+        if (charSheet.intel <10)
+        {
+            if (charSheet.intel % 2 == 0)//from unity forums https://answers.unity.com/questions/1036351/how-to-tell-if-an-int-is-even.html
+            {
+                intelModifier = Mathf.Floor((charSheet.intel - 10)/2 - 1) + 1f;
+            }
+            else
+            {
+                intelModifier = Mathf.Floor((charSheet.intel - 10)/2 - 1);
+            }
+        }
+
+        else
+        {
+            intelModifier = Mathf.Floor((charSheet.intel - 10)/2); 
+        }
+
+        attributeModifierTexts[3].text = intelModifier.ToString();
+        
+        if (charSheet.wis <10)
+        {
+            if (charSheet.wis % 2 == 0)//from unity forums https://answers.unity.com/questions/1036351/how-to-tell-if-an-int-is-even.html
+            {
+                wisModifier = Mathf.Floor((charSheet.wis - 10)/2 - 1) + 1f;
+            }
+            else
+            {
+                wisModifier = Mathf.Floor((charSheet.wis - 10)/2 - 1);
+            }
+        }
+
+        else
+        {
+            wisModifier = Mathf.Floor((charSheet.wis - 10)/2); 
+        }
+
+        attributeModifierTexts[4].text = wisModifier.ToString();
+        
+        if (charSheet.cha <10)
+        {
+            if (charSheet.cha % 2 == 0)//from unity forums https://answers.unity.com/questions/1036351/how-to-tell-if-an-int-is-even.html
+            {
+                chaModifier = Mathf.Floor((charSheet.cha - 10)/2 - 1) + 1f;
+            }
+            else
+            {
+                chaModifier = Mathf.Floor((charSheet.cha - 10)/2 - 1);
+            }
+        }
+
+        else
+        {
+            chaModifier = Mathf.Floor((charSheet.cha - 10)/2); 
+        }
+
+        attributeModifierTexts[5].text = chaModifier.ToString();
+        
     }
 }
