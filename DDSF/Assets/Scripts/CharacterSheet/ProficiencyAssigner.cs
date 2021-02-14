@@ -1,4 +1,5 @@
 ﻿
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,11 +11,14 @@ public class ProficiencyAssigner : MonoBehaviour
 
     private void Start()
     {
-        expInputField.onEndEdit.AddListener(AssignProficiencyBonus);
+        expInputField.onEndEdit.AddListener(CallCoroutine);
     }
 
-    private void AssignProficiencyBonus(string playerInput)
+    private IEnumerator AssignProficiencyBonus()
     {
+        
+        yield return new WaitForSeconds(1);
+        
         if (charSheet.level<5)
         {
             charSheet.proficiencyBonus = 2;
@@ -39,7 +43,14 @@ public class ProficiencyAssigner : MonoBehaviour
         {
             charSheet.proficiencyBonus = 6;
         }
+        
+        
 
-        proficiencyText.text = charSheet.proficiencyBonus.ToString();
+        proficiencyText.text = charSheet.proficiencyBonus.ToString(); 
+    }
+
+    private void CallCoroutine(string playerInput)
+    {
+        StartCoroutine(AssignProficiencyBonus());
     }
 }
