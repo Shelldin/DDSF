@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9dcb65-1c86-4ccc-a2bd-966c2ecd8106" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ProficiencyAssigner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ProficiencyAssigner.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5d9dcb65-1c86-4ccc-a2bd-966c2ecd8106" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +170,7 @@
       <workItem from="1612591284588" duration="1208000" />
       <workItem from="1612762542652" duration="3155000" />
       <workItem from="1612847512791" duration="2403000" />
-      <workItem from="1613281775776" duration="3457000" />
+      <workItem from="1613281775776" duration="3659000" />
     </task>
     <servers />
   </component>
