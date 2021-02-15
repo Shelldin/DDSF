@@ -84,6 +84,8 @@ public class LoadCharacterSheetData : MonoBehaviour
     public InputField inspirationInputField;
     public Text proficiencyBonusText;
     
+    public List<Toggle> savingThrowToggles = new List<Toggle>();
+    
 
     //private int[] subAtThree = {1, 2, 3, 6, 7, 8, 9, 10};
 
@@ -120,6 +122,8 @@ public class LoadCharacterSheetData : MonoBehaviour
         
         LoadInspiration();
         LoadProficiencyBonus();
+        
+        LoadSavingThrows();
     }
 
     private void LoadCharacterName()
@@ -379,5 +383,13 @@ public class LoadCharacterSheetData : MonoBehaviour
     private void LoadProficiencyBonus()
     {
         proficiencyBonusText.text = charSheet.proficiencyBonus.ToString();
+    }
+
+    private void LoadSavingThrows()
+    {
+        for (int i = 0; i < savingThrowToggles.Count; i++)
+        {
+            savingThrowToggles[i].isOn = charSheet.savingThrowBools[i];
+        }
     }
 }

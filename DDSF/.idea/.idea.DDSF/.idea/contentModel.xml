@@ -41,6 +41,7 @@
             <e p="InspirationAssigner.cs" t="Include" />
             <e p="LoadCharacterSheetData.cs" t="Include" />
             <e p="ProficiencyAssigner.cs" t="Include" />
+            <e p="SavingThrowToggler.cs" t="Include" />
             <e p="SpeedAssigner.cs" t="Include" />
             <e p="SwimSpeedAssigner.cs" t="Include" />
           </e>

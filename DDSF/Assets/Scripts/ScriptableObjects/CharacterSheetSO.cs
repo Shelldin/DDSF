@@ -67,6 +67,36 @@ public class CharacterSheetSO : ScriptableObject
         deathSaveBools[5] = !deathSaveBools[5];
     }
 
+    public void StrengthSaveToggle()
+    {
+        savingThrowBools[0] = !savingThrowBools[0];
+    }
+
+    public void DexSaveToggle()
+    {
+        savingThrowBools[1] = !savingThrowBools[1];
+    }
+
+    public void ConSaveToggle()
+    {
+        savingThrowBools[2] = !savingThrowBools[2];
+    }
+
+    public void IntelSaveToggle()
+    {
+        savingThrowBools[3] = !savingThrowBools[3];
+    }
+
+    public void WisSaveToggle()
+    {
+        savingThrowBools[4] = !savingThrowBools[4];
+    }
+
+    public void ChaSaveToggle()
+    {
+        savingThrowBools[5] = !savingThrowBools[5];
+    }
+
     
     
 }

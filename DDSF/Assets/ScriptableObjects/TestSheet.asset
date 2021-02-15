@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: 
   deathSaveBools: 000000000000
+  savingThrowBools: 000001000001
   classMenuDropdownValue: 12
   subClassMenuDropdownValue: 5
   raceMenuDropdownValue: 15
@@ -42,3 +43,5 @@ MonoBehaviour:
   swimSpeedSpace: 0
   flySpeed: 0
   flySpeedSpace: 0
+  initiative: 0
+  inspiration: 0
