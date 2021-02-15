@@ -8,6 +8,7 @@ public class CharacterSheetSO : ScriptableObject
 {
     public string characterName;
     public List<bool> deathSaveBools = new List<bool>();
+    public List<bool> savingThrowBools = new List<bool>();
 
     public int classMenuDropdownValue,
         subClassMenuDropdownValue,

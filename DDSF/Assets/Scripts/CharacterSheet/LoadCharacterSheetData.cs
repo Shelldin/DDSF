@@ -72,6 +72,7 @@ public class LoadCharacterSheetData : MonoBehaviour
     
     public List<InputField> attributeInputFields = new List<InputField>();
     public List<Text> attributeModifierTexts = new List<Text>();
+    
 
     private float strModifier,
         dexModifier,
@@ -79,6 +80,10 @@ public class LoadCharacterSheetData : MonoBehaviour
         intelModifier,
         wisModifier,
         chaModifier;
+
+    public InputField inspirationInputField;
+    public Text proficiencyBonusText;
+    
 
     //private int[] subAtThree = {1, 2, 3, 6, 7, 8, 9, 10};
 
@@ -112,6 +117,9 @@ public class LoadCharacterSheetData : MonoBehaviour
         LoadSpeeds();
         
         LoadAttributes();
+        
+        LoadInspiration();
+        LoadProficiencyBonus();
     }
 
     private void LoadCharacterName()
@@ -361,5 +369,15 @@ public class LoadCharacterSheetData : MonoBehaviour
 
         attributeModifierTexts[5].text = chaModifier.ToString();
         
+    }
+
+    private void LoadInspiration()
+    {
+        inspirationInputField.text = charSheet.inspiration.ToString();
+    }
+
+    private void LoadProficiencyBonus()
+    {
+        proficiencyBonusText.text = charSheet.proficiencyBonus.ToString();
     }
 }

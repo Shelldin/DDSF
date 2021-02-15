@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9dcb65-1c86-4ccc-a2bd-966c2ecd8106" name="Default Changelist" comment="" />
+    <list default="true" id="5d9dcb65-1c86-4ccc-a2bd-966c2ecd8106" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DeathSaveToggler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DeathSaveToggler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +90,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DropdownValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/HitPointValueAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/HitDiceController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DeathSaveToggler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/InputTextAssinger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ExpAndLevelAssinger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ArmorClassAssigner.cs" />
@@ -98,9 +104,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AttributeScripts/IntAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AttributeScripts/WisAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AttributeScripts/ChaAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ProficiencyAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/InpirationAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/InspirationAssigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/LoadCharacterSheetData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterSheetSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/ProficiencyAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/DeathSaveToggler.cs" />
       </list>
     </option>
   </component>
@@ -171,6 +180,7 @@
       <workItem from="1612762542652" duration="3155000" />
       <workItem from="1612847512791" duration="2403000" />
       <workItem from="1613281775776" duration="3659000" />
+      <workItem from="1613362652778" duration="3059000" />
     </task>
     <servers />
   </component>

@@ -38,6 +38,7 @@
             <e p="HitDiceController.cs" t="Include" />
             <e p="HitPointValueAssigner.cs" t="Include" />
             <e p="InitiativeAssigner.cs" t="Include" />
+            <e p="InspirationAssigner.cs" t="Include" />
             <e p="LoadCharacterSheetData.cs" t="Include" />
             <e p="ProficiencyAssigner.cs" t="Include" />
             <e p="SpeedAssigner.cs" t="Include" />
