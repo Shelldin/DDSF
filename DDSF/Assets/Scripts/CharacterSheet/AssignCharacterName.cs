@@ -8,10 +8,21 @@ public class AssignCharacterName : MonoBehaviour
 {
     public InputField characterNameField;
     public CharacterSheetSO charSheet;
+
+    private TouchScreenKeyboard keyboard;
     
     private void Start()
     {
+       
         characterNameField.onEndEdit.AddListener(ReceiveStringInput);
+    }
+
+    private void Update()
+    {
+        if (characterNameField.isFocused)
+        {
+             keyboard = TouchScreenKeyboard.Open("",TouchScreenKeyboardType.Default);
+        }
     }
 
     private void ReceiveStringInput(string playerInput)
