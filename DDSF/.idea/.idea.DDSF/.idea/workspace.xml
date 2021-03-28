@@ -22,7 +22,8 @@
     <list default="true" id="5d9dcb65-1c86-4ccc-a2bd-966c2ecd8106" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDSF/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSheet/AssignCharacterName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +182,7 @@
       <workItem from="1613281775776" duration="3659000" />
       <workItem from="1613362652778" duration="5705000" />
       <workItem from="1614147574851" duration="2981000" />
+      <workItem from="1616907284906" duration="930000" />
     </task>
     <servers />
   </component>

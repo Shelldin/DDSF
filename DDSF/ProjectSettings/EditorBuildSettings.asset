@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/CharacterSheet.unity
+    guid: 50296583609d2b940916f725cb218442
   m_configObjects: {}
